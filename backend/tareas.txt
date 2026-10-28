@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nombre": "Proyecto Web",
+    "descripcion": "Estaciona_YA",
+    "estado": "En proceso"
+  },
+  {
+    "id": 2,
+    "nombre": "Gestor Tareas",
+    "descripcion": "Terminar todo",
+    "estado": "En proceso"
+  }
+]

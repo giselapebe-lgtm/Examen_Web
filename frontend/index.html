@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="web.css" />
+  </head>
+  <body>
+    <h1>Gestor de Tareas</h1>
+
+    <h2>Registrar actividad</h2>
+
+    <input type="text" id="nombre" placeholder="Nombre" />
+
+    <input type="text" id="descripcion" placeholder="Descripción" />
+
+    <select id="estado">
+      <option>Pendiente</option>
+      <option>En proceso</option>
+      <option>Finalizada</option>
+    </select>
+
+    <button onclick="registrar()">Registrar</button>
+
+    <h2>Actividades registradas</h2>
+
+    <button onclick="consultar()">Consultar</button>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Descripción</th>
+          <th>Estado</th>
+          <th>Actualizar</th>
+        </tr>
+      </thead>
+
+      <tbody id="tabla"></tbody>
+    </table>
+
+    <script src="web.js"></script>
+  </body>
+</html>
